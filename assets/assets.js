@@ -78,38 +78,38 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Accounting basics project',
+        description: 'Journal Entries & Ledger Practice',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Business studies assignment',
+        description: 'Case Studies & Reports',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Office tools practice',
+        description: 'MS Excel, Word & Documentation',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Online certifications',
+        description: 'Financial Literacy & Skill Programs',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Accounting support', description: 'Basic accounting assistance including journal entries, ledger maintenance...', link: '' },
+    { icon: assets.mobile_icon, title: 'MS Excel & Data Handling', description: 'Data entry, basic reporting, spreadsheet organization, and...', link: '' },
+    { icon: assets.ui_icon, title: 'Office Administration', description: 'Documentation, file management, email handling, and support for...', link: '' },
+    { icon: assets.graphics_icon, title: 'Business Documentation', description: 'Preparation of reports, presentations, and written business...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Core Skill', description: 'MS Excel, Word, Basic Accounting, Data Entry & Documentation' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Com - General' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Practiccal Exposure', description: 'Built more than - ...' }
 ];
 
 export const toolsData = [

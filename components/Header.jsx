@@ -9,16 +9,16 @@ const Header = () => {
         <motion.div initial={{scale: 0}} whileInView={{scale: 1}} transition={{duration: 0.8, type: 'spring', stiffness: 100}}>
             <Image className="rounded-full w-32" src={assets.profile_img} alt=""/>
         </motion.div>
-        <motion.h3 initial={{y: -20, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.6, delay: 0.3}} className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>Hi | I'm Yash Kushwaha <Image className="w-6" src={assets.hand_icon} alt=""/></motion.h3>
+        <motion.h3 initial={{y: -20, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.6, delay: 0.3}} className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>Hi | I'm Anand Kushwaha <Image className="w-6" src={assets.hand_icon} alt=""/></motion.h3>
         <motion.h1 initial={{y: -30, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.8, delay: 0.5}} className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Frontend web developer based in Mumbai.
+            Bachelor of Commerce Undergraduate.
         </motion.h1>
         <motion.p initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.6, delay: 0.7}} className='max-w-2xl mx-auto font-Ovo'>
-            I am a frontend developer from Mumbai, India with 1 years of hands-on experience in desigining and developing responsive user friendly websites.
+            I am a first-year B.Com student from Mumbai, India, building a strong foundation in accounting, business studies, and office operations.
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a initial={{y: 30, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.6, delay:1}} className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent' href="#contact">contact me <Image className='rounded-full w-4' src={assets.right_arrow_white} alt=''/></motion.a>
-            <motion.a initial={{y: 30, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.6, delay:1.2}} className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black' href="/sample-resume.pdf" download>my resume <Image className='w-4' src={assets.download_icon} alt=''/></motion.a>
+            <motion.a initial={{y: 30, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.6, delay:1.2}} className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black' href="/anand-kushwaha.pdf" download>my resume <Image className='w-4' src={assets.download_icon} alt=''/></motion.a>
         </div>
     </div>
   )
